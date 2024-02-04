@@ -17,10 +17,9 @@
             <!-- odin logo -->
             <div class="top">
                 <div class="odin-logo">
-                    <!-- set image width and height using css -->
                     <img src="./img/odin-lined.png" alt="odin-logo">
                 </div>
-                <div class="odin-word">ODIN</div>
+                <div class="odin-word">Odin</div>
             </div>
             <!-- footer -->
             <div class="footer">
@@ -37,39 +36,40 @@
             <!-- top section -->
             <div class="top-section">
                 <div class="first-part">
-                    This is not a real online service! You know you need something like this
-                    in your life to help you realize your deepest dreams.
-                    Sign up now to get started.
+                    I'm a croc, the bitch you wished you never messed with.
+                    Look me in my eyes... What do you see? Brutality!
                 </div>
 
                 <div class="second-part">
-                    You <em>know</em> you want to.
+                    <span>You <em>know</em> you want to succeed.</span>
                 </div>
             </div>
             <!-- middle section -->
             <div class="middle-section">
-                <h2>Let's do this!</h2>
+                <div class="doit">
+                    Let's do this!
+                </div>
                 <div class="form-section">
                     <form action="" method="post">
                         <!-- top -->
                         <div class="top">
                             <div class="top-left">
-                                <label for="fname">FIRST NAME</label>
-                                <input type="text" id="fname" name="fname">
+                                <label for="fname">FIRST NAME</label><br>
+                                <input type="text" id="fname" name="fname" required>
                             </div>
                             <div class="top-right">
-                                <label for="lname">LAST NAME</label>
-                                <input type="text" id="lname" name="lname">
+                                <label for="lname">LAST NAME</label><br>
+                                <input type="text" id="lname" name="lname" required>
                             </div>
                         </div>
                         <!-- middle -->
                         <div class="middle">
                             <div class="middle-left">
-                                <label for="mail">EMAIL</label>
-                                <input type="email" id="mail" name="mail">
+                                <label for="mail">EMAIL</label><br>
+                                <input type="email" id="mail" name="mail" required>
                             </div>
                             <div class="middle-right">
-                                <label for="phone">PHONE NUMBER</label>
+                                <label for="phone">PHONE NUMBER</label><br>
                                 <input type="tel" id="phone" name="phone">
                             </div>
                         </div>
@@ -77,12 +77,12 @@
                         <!-- bottom -->
                         <div class="bottom">
                             <div class="bottom-left">
-                                <label for="pword1">PASSWORD</label>
-                                <input type="password" id="pword1" name="pword1">
+                                <label for="pword1">PASSWORD</label><br>
+                                <input class="error" type="password" id="pword1" name="pword1" required>
                             </div>
                             <div class="bottom-right">
-                                <label for="pword2">CONFIRM PASSWORD</label>
-                                <input type="password" id="pword2" name="pword2">
+                                <label for="pword2">CONFIRM PASSWORD</label><br>
+                                <input class="error" type="password" id="pword2" name="pword2" required>
                             </div>
                         </div>
                     </form>
@@ -91,7 +91,7 @@
             <!-- bottom section -->
             <div class="bottom-section">
                 <div class="top"><button type="button">Create Account</button></div>
-                <div class="bottom">Already have an account? <span>Log in</span></div>
+                <div class="bottom">Already have an account? <span><a href="#">Log in</a></span></div>
             </div>
         </div>
     </div>
